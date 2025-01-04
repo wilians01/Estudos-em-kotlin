@@ -25,7 +25,7 @@ fun main() {
     println(mediaDePreco)
 
     val resposta = mediaDePreco.toDouble()
-    // se quiser converter um tipo coloque depois da variavel .to---- e tipo da que você
+    // se quiser converter um tipo coloque depois da variavel .to---- e o tipo da que você
 
 
     println(resposta)
