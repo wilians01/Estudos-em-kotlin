@@ -1,4 +1,4 @@
-package Estudos
+package Estudos.anotacoes
 
 fun main() {
 
@@ -45,7 +45,8 @@ fun main() {
     // Para saber o tamanho de uma varial ou arry, String etc.....
     val nome = "Carlos Pereira Nunnes"
     println("O nome $nome tem ${nome.length} letras")
-    // Obs: para colocar uma Função dentro de println tem que colocar ${ } se não, não dá certo  
+    // Obs: para colocar uma Função dentro de println tem que colocar ${ } se não, não dá certo
+    // Obs: a função .length na contagem da varial String se o nome tiver sobre nome ele tambem vai conta o espaço
 
 
 
