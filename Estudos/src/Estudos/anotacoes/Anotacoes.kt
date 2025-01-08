@@ -46,7 +46,7 @@ fun main() {
     val nome = "Carlos Pereira Nunnes"
     println("O nome $nome tem ${nome.length} letras")
     // Obs: para colocar uma Função dentro de println tem que colocar ${ } se não, não dá certo
-    // Obs: a função .length na contagem da varial String se o nome tiver sobre nome ele tambem vai conta o espaço
+    // Obs: a função .length na contagem da varial String se o nome tiver sobrenome ele também vai conta o espaço
 
 
 
