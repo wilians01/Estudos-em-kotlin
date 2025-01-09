@@ -30,7 +30,7 @@ fun main() {
     println(resposta)
 
     //podemos no momento da declaração de um numero grande colocar _ para ficar melhor intendimento
-    val  numeroGrande =1_000_000
+    val numeroGrande = 1_000_000
 
     //NUMEROS
     val byte: Byte = 8 // 8-bit
@@ -48,16 +48,7 @@ fun main() {
     // Obs: para colocar uma Função dentro de println tem que colocar ${ } se não, não dá certo
     // Obs: a função .length na contagem da varial String se o nome tiver sobrenome ele também vai conta o espaço
 
-
-
-
-
-
-
-
-
-
-
-
+    //caso queira que a sua variavl aceite valores nulll você tera que colocar um ponto de ?
+    var exempço :String? = null// você não declara dessa maneira isso ira gerar um erro
 }
 
