@@ -1,4 +1,4 @@
-package Estudos.Dio
+package Estudos.Dio.introducaoKotlin
 
 fun menssagem(menssagem: String) { // Um exemplo de um estrutura de função
     println(menssagem)
