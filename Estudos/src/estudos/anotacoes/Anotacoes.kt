@@ -1,4 +1,4 @@
-package Estudos.anotacoes
+package estudos.anotacoes
 
 fun main() {
 

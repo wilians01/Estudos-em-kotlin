@@ -1,4 +1,4 @@
-package Estudos.Dio.introducaoKotlin
+package estudos.dio.introducaoKotlin
 
 fun main() {
     //caso queira que a sua variavl aceite valores nulll você tera que colocar um ponto de ?
