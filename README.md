@@ -22,12 +22,12 @@ Versão Kotlin: 1.x.x
 
 ### 🌟 O Que Já Aprendi?
 
-- [ ] Sintaxe Básica
-- [ ] Estruturas de Controle e Repetição
-- [ ] Funções e Lambdas
-- [ ] Classes, Objetos e Herança
-- [ ] Corrotinas
-- [ ] Desenvolvimento Android
+- [x] Sintaxe Básica
+- [x] Estruturas de Controle e Repetição
+- [x] Funções e Lambdas
+- [x] Classes, Objetos e Herança
+- [x] Corrotinas
+- [x] Desenvolvimento Android
 
 ### 📌 Como Contribuir
 
