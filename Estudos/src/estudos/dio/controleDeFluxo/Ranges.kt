@@ -1,6 +1,7 @@
 package estudos.dio.controleDeFluxo
 
 fun main() {
+
     for(i in 0..3) {  // 1  Itera sobre um intervalo começando de 0 até 3 (inclusive). -> 1...3
         print(i)
 
@@ -37,4 +38,17 @@ fun main() {
         print(c)
     }
     print(" ")
+
+// OS INTERVALOS TAMBÉM SÃO ÚTRIS EM INDTRUÇÕES IF
+
+    val x = 2
+    if (x in 1..5) {            // Verifica se um valor está no intervalo.
+        print("x está no intervalo de 1 a 5")
+    }
+    println()
+
+    if (x !in 6..10) {          // 2 !in é o oposto de in.
+        print("x não está no intervalo de 6 a 10")
+    }
+
 }
