@@ -37,14 +37,14 @@ class TigreSiberiano : Tigre("Siberia")
 // EXEMPLO DE HERAÇA 03
 
 open class Lion(val nome01: String, val origin: String){
-
-
     fun ola(){
         println("O Leão $nome01 que é do país intitulado $origin diz: Graooh ")
     }
 }
 
-class Asiatico(nome02:String): Lion(nome01 = nome02, origin = "India")
+class Asiatico(nome02: String) : Lion(nome01 = nome02, origin = "India")
+
+
 
 
 fun main() {
