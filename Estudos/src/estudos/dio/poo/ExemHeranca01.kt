@@ -18,14 +18,35 @@ class Caixa: Funcionario(){// aqui podemos ver que a class Caixa está herdado t
     }
 }
 
+// Outro exemplo de Herança abaixo
+
+// herança com parametro no costrutor
+open class Tigre(val origem: String){
+    fun rugido(){
+        println("O tigre que é do país intitulado $origem tem um rugido assim: ggrrhhhhhh  ")
+    }
+}
+
+// Aqui podemos ver que class TigreSiberiano   alem de herda da class Tigre
+// a posibilidade de passa um parametro padrão no costrutor
+class TigreSiberiano : Tigre("Siberia")
+
+
 fun main() {
-    // manerias de declarar uma variavel
+    // manerias de declarar uma variavel de instância
+
+    val tigre : Tigre = TigreSiberiano()
+
     val funcionario = Caixa()
     val funcionario1 = Funcionario()
     val funcionario2: Funcionario = Caixa()
 
+    tigre.rugido()
+
     funcionario.fala()
     funcionario1.fala()
     funcionario2.fala()
+
+
 
 }
