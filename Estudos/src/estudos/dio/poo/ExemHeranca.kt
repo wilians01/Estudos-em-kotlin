@@ -1,5 +1,7 @@
 package estudos.dio.poo
 
+// EXEMPLO DE HERAÇA 01
+
 //Todas class em kotlin é fechada e FANIL não pode ser usada como extensão nem pode se subscrita
 
 open class Funcionario { // Uma class que nós queremos que sejá herdada ela pricisa defenida como (open class)
@@ -18,7 +20,7 @@ class Caixa: Funcionario(){// aqui podemos ver que a class Caixa está herdado t
     }
 }
 
-// Outro exemplo de Herança abaixo
+// EXEMPLO DE HERAÇA 02
 
 // herança com parametro no costrutor
 open class Tigre(val origem: String){
@@ -32,14 +34,31 @@ open class Tigre(val origem: String){
 class TigreSiberiano : Tigre("Siberia")
 
 
+// EXEMPLO DE HERAÇA 03
+
+open class Lion(val nome01: String, val origin: String){
+
+
+    fun ola(){
+        println("O Leão $nome01 que é do país intitulado $origin diz: Graooh ")
+    }
+}
+
+class Asiatico(nome02:String): Lion(nome01 = nome02, origin = "India")
+
+
 fun main() {
     // manerias de declarar uma variavel de instância
+
+    val lion: Lion = Asiatico("Carlos")
 
     val tigre : Tigre = TigreSiberiano()
 
     val funcionario = Caixa()
     val funcionario1 = Funcionario()
     val funcionario2: Funcionario = Caixa()
+
+    lion.ola()
 
     tigre.rugido()
 
