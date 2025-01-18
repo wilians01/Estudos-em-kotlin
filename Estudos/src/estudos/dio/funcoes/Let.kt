@@ -1,7 +1,7 @@
 package estudos.dio.funcoes
 
 fun customPrint(s: String) {
-    print(s.uppercase())
+    print(s.uppercase())// customPrint vai deixa o String em caixa alta
 }
 
 fun main() {
@@ -13,7 +13,8 @@ fun main() {
     println(" is empty: $empty")
 
 
-    fun printNonNull(str: String?) {
+    fun printNonNull(str: String?) {// nesse trecho do código aqui podemos recerber uma String que pode ser null
+
         println("A impressão \"$str\":")
 
         str?.let {  // 4 Usa chamada segura, então letseu bloco de código será executado somente em valores não nulos.
