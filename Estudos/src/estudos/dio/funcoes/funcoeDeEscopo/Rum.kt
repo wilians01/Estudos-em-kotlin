@@ -1,4 +1,4 @@
-package estudos.dio.funcoes
+package estudos.dio.funcoes.funcoeDeEscopo
 //Como let, run é outra função de escopo da biblioteca padrão. Basicamente,
 // ela faz o mesmo: executa um bloco de código e retorna seu resultado.
 // A diferença é que dentro rundo objeto é acessado por this. Isso é útil

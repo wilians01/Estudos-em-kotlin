@@ -1,4 +1,4 @@
-package estudos.dio.funcoes
+package estudos.dio.funcoes.funcoeDeEscopo
 
 fun customPrint(s: String) {
     print(s.uppercase())// customPrint vai deixa o String em caixa alta

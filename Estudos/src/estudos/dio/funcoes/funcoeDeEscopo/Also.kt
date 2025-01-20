@@ -1,4 +1,4 @@
-package estudos.dio.funcoes
+package estudos.dio.funcoes.funcoeDeEscopo
 
 // alsofunciona comoapply: executa um bloco dado e retorna o objeto chamado.
 // Dentro do bloco, o objeto é referenciado por it, então é mais fácil passá-lo como um argumento.

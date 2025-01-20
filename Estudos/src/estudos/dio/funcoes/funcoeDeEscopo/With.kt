@@ -1,4 +1,4 @@
-package estudos.dio.funcoes
+package estudos.dio.funcoes.funcoeDeEscopo
 
 // With é uma função não-extensiva que pode acessar membros de seu argumento de forma concisa:
 // você pode omitir o nome da instância ao se referir a seus membros.

@@ -1,4 +1,4 @@
-package estudos.dio.funcoes
+package estudos.dio.funcoes.funcoeDeEscopo
 
 // apply executa um bloco de código em um objeto e retorna o
 // próprio objeto. Dentro do bloco, o objeto é referenciado por this.
