@@ -8,7 +8,7 @@ fun main() {
     val pair = "Ferrari" to "Katrina"               // 3 Cria um Pairchamando a função infix toda biblioteca padrão.
     println(pair)
 
-    infix fun String.onto(other: String) = Pair(this, other)   // 4 Aqui está sua própria implementação de tochamado criativamente onto.
+    infix fun String.onto(other: String) = Pair(this, other)   // 4 Aqui está sua própria implementação de to chamado criativamente onto.
     val myPair = "McLaren" onto "Lucas"
     println(myPair)
 
