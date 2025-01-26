@@ -3,6 +3,8 @@ package estudos.dio.funcoes.tiposDeFuncoes
 // Funções de ordem superior
 //UMfunção de ordem superioré uma função que recebe outra função como parâmetro e/ou retorna uma função.
 
+//Tomando funções como parâmetros
+
 // 1 - Declara uma função de ordem superior. Ela recebe dois parâmetros inteiros, xe y. Além disso,
 // ela recebe outra função operationcomo parâmetro. Os operationparâmetros e o tipo de retorno também são definidos na declaração.
 // 2 - A função de ordem superior retorna o resultado da operationinvocação com os argumentos fornecidos.
