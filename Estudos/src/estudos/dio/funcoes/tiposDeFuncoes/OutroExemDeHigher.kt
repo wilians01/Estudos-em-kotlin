@@ -6,9 +6,9 @@ package estudos.dio.funcoes.tiposDeFuncoes
 //3-Invoca operation para obter o resultado atribuído a uma variável. Aqui func se torna square que é retornado por operation.
 //4-Invoca func. A square função é realmente executada.
 
-
+// uma função que retorna outra função
 fun operation(): (Int) -> Int {                                     // 1
-    return ::square
+    return ::square // aqui nós acionamos outra função ::
 }
 
 fun square(x: Int) = x * x                                          // 2
