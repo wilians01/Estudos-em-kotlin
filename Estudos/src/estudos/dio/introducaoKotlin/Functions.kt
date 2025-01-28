@@ -26,7 +26,7 @@ fun somaa(x: Int, y: Int) {
 }
 
 fun multi(x: Int, y: Int) = x * y// essa função retorna a soma
-// essa função seria a mesma coisa da função soma a diferença que não tem { } e return
+//    essa função seria a mesma coisa da função soma a diferença que não tem { } e return
 
 fun main() {
 //    menssagem(" Feliz Aniversario ")
