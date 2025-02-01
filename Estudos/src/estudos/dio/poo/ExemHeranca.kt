@@ -15,7 +15,7 @@ open class Funcionario { // Uma class que nós queremos que sejá herdada ela pr
 class Caixa: Funcionario(){// aqui podemos ver que a class Caixa está herdado todas as características e comportamento
     // da class funcionario
     override fun fala(){ // para subscrever a função devemos declara a palavra reservada (override)
-        // se a função (fala) não tivesse sido declarada como (open) você não poderia sobscrever ela
+        // se a função (fala) não tivesse sido declarada como (open) você não poderia sobscrever essa função
         println("Dinheiro ou cartão")
     }
 }
