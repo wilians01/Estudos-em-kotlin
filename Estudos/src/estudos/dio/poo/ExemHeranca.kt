@@ -30,7 +30,7 @@ open class Tigre(val origem: String){
 }
 
 // Aqui podemos ver que class TigreSiberiano   alem de herda da class Tigre.
-// a posibilidade de passa um parametro padrão no costrutor
+// a posibilidade de passa um parametro padrão no costrutor.
 class TigreSiberiano : Tigre("Siberia")
 
 
