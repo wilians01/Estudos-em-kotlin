@@ -48,7 +48,7 @@ class Asiatico(nome02: String) : Lion(nome01 = nome02, origin = "India")
 
 
 fun main() {
-    // manerias de declarar uma variavel de instância
+    // manerias de declarar uma variavel de instância.
 
     val lion: Lion = Asiatico("Carlos")
 
