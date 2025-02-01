@@ -20,7 +20,7 @@ class Caixa: Funcionario(){// aqui podemos ver que a class Caixa está herdado t
     }
 }
 
-// EXEMPLO DE HERAÇA 02
+// EXEMPLO DE HERAÇA 02.
 
 // herança com parametro no costrutor.
 open class Tigre(val origem: String){
