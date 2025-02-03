@@ -1,6 +1,6 @@
 package estudos.dio.ExecoesEmKotlin
 
-// Aqui podemos ver como é um tratamento de exceções em kotlin bem semelhante ao java com try catch
+// Aqui podemos ver como é um tratamento de exceções em kotlin bem semelhante ao java com try catch.
 
 fun main() {
 
@@ -13,7 +13,7 @@ fun main() {
         println("Ocorreu uma exceção aritmética.")
     } catch (e: Throwable){
         e.printStackTrace()
-    }finally {                              // fanilly é executado independente de erro ou não
+    }finally {                              // fanilly é executado independente de erro ou não.
         println("Fianally executado")
     }
 
