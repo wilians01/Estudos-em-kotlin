@@ -20,13 +20,13 @@ fun soma(x: Int, y: Int): Int { // aqui a função vai retorna a soma
 }
 
 fun somaa(x: Int, y: Int) {
-    // ja aqui ira retorna Unit você pode colocara para imprimir o resultado mais não é mesma coisa
+    // ja aqui ira retorna Unit você pode colocara para imprimir o resultado mais não é mesma coisa.
 
     println(x + y)
 }
 
 fun multi(x: Int, y: Int) = x * y// essa função retorna a soma
-//    essa função seria a mesma coisa da função soma a diferença que não tem { } e return
+//    essa função seria a mesma coisa da função soma a diferença que não tem { } e return.
 
 fun main() {
 //    menssagem(" Feliz Aniversario ")
@@ -37,7 +37,7 @@ fun main() {
 
     fun nomes(vararg nomes:String){// o varang indica que posso receber wuantos nomes eu quiser, respetando o tipo
         // aqui nessa fuçao podemos passar um quantidade indefenida de um determinado tipo
-        // essa função ira armazena os dados como uma lista
+        // essa função ira armazena os dados como uma lista.
         for (n in nomes) println(n)
     }
     nomes("maria","joão","matheus","fernando","marcos","franco","lucas","marcelo")
